@@ -1,0 +1,21 @@
+/* style.css */
+
+p {
+    font-family: Verdana, DejaVu Sans, sans-serif;
+    background-color: #f4cdd4
+}
+
+.big {
+    font-size: 36px;
+    color: #1199ff
+}
+
+.semibig {
+    font-size: 24px;
+}
+
+.greenbold {
+    background-color: #33ff6d;
+    font-size: 24px;
+    font-weight: 700;
+}

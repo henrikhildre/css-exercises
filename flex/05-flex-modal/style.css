@@ -15,6 +15,35 @@ body {
   justify-content: center;
 }
 
+.header {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.mainElements {
+  display:flex;
+  flex-direction:row;
+}
+
+.left{
+  display:flex;
+  flex:auto;
+  padding:10px;
+}
+
+.right{
+  display:flex;
+  flex-direction:column;
+  padding:10px;
+}
+
+.topRow{
+  display:flex;
+  justify-content:space-between;
+  padding:0;
+  align-items: center;
+}
+
 .modal {
   background: white;
   width: 480px;
@@ -33,6 +62,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+}
+
+.text{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.buttons {
+  display:flex;
+  gap: 5px;
+  flex-shrink:0;
 }
 
 .close-button {
